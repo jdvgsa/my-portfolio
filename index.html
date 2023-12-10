@@ -36,7 +36,7 @@
         <div class="container">
             <div class="row">
                 <div class="about-column-1">
-                    <img src="images/test.jpg" alt="test">
+                    <img src="images/selfiecropped.jpg" alt="test">
                 </div>
                 <div class="about-column-2">
                     <h1 class="sub-title">About Me</h1>
@@ -79,18 +79,19 @@
     
 <script>
     var tabLinks = document.getElementsByClassName("tab-links");
-var tabContents = document.getElementsByClassName("tab-contents");
+    var tabContents = document.getElementsByClassName("tab-contents");
 
 function openTab(tabname) {
-    for(tablink of tabLinks){
-        tablink.classList.remove("active-link");
+    for(tabLink of tabLinks){
+        tabLink.classList.remove("active-link");
     }
-}
 
-function openTab(tabname) {
-    for(tabcontent of tabContents){
-        tabcontent.classList.remove("active-tab");
+
+    for(tabContent of tabContents){
+        tabContent.classList.remove("active-tab");
     }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
 }
 </script>
 

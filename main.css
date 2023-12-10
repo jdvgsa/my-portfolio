@@ -132,7 +132,7 @@ nav ul li a:hover::after {
     content: "";
     width: 0;
     height: 3px;
-    background: rebeccapurple;
+    background-color: rebeccapurple;
     position: absolute;
     left: 0;
     bottom: -8px;
@@ -140,7 +140,7 @@ nav ul li a:hover::after {
 }
 
 .tab-links.active-link::after {
-    width: 50%;
+    width: 100%;
 }
 
 .tab-contents ul li {
