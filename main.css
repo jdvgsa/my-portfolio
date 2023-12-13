@@ -52,7 +52,7 @@ nav ul li a::after {
     content: "";
     width: 0;
     height: 3px;
-    background-color: #ff004f;
+    background-color: rebeccapurple;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -360,4 +360,13 @@ form .btn2 {
     margin-top: 20px;
     cursor: pointer;
     
+}
+
+.foot {
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background: rebeccapurple;
+    font-weight: 300;
+    margin-top: 20px;
 }
