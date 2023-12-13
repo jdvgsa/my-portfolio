@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <script src="scripts.js" type="module" defer></script> -->
+    <script src="scripts.js" type="module" defer></script>
+    <script src="scripts.js" type="module" defer></script>
     <title>John Dagsa</title>
     <link rel="stylesheet" href="main.css">
 
@@ -25,7 +26,7 @@
             </nav>
             <div class="header-text">
             <p>Web Developer</p>
-            <h1><span>Welcome</span><br>To My Portfolio.</h1>
+            <h1><span>Hi, I'm John</span><br>Welcome To My<br>Portfolio</h1>
         </div>
         </div>
     </div>
@@ -40,7 +41,7 @@
                 </div>
                 <div class="about-column-2">
                     <h1 class="sub-title">About Me</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas maiores voluptatibus reiciendis facere, autem, earum at doloribus aut ut saepe excepturi porro! Expedita qui suscipit ipsum adipisci dignissimos modi eveniet?</p>
+                    <p>In the vibrant realm of web development at SAIT, I find myself immersed in a dynamic learning journey. From traversing the intriguing landscapes of Content Management Systems and Databases through Supabase and Directus, to sculpting stylish interfaces with Tailwind CSS, and diving into the efficiency through the SvelteKit Framework, each tool has contributed its own unique touch to my creative toolkit. Through my learning journey in SAIT, I've come to realize that I enjoy designing and developing websites while working with HTML, CSS, and JavaScript. Each project becomes a welcome opportunity to learn and come up with new ideas as well as reinforce my knowledge on concepts that I've previously learned. I'm excited about facing new challenges and seeing how much further I can push myself in my coding journey.</p>
 
                     <div class="tab-titles">
                         <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
@@ -76,7 +77,82 @@
             </div>  
         </div>
     </div>
+
+    <!-- -----------------services ---------------- -->
+
+    <div id="myskills">
+        <div class="container">
+            <h1 class="sub-title">My skills</h1>
+            <div class="skills">
+                
+                <div>
+                    <h2>Programming Languages</h2>
+                    <p>Learning JavaScript not only enhanced my problem-solving and logical thinking but also empowered me with the proficiency to skillfully design and develop dynamic, interactive web applications that respond seamlessly to user interactions, fostering a rich user experience and versatility in digital solutions.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <h2>Frameworks</h2>
+                    <p>Mastering SvelteKit hones your web development skills by streamlining the creation of efficient, high-performance applications, fostering a deep understanding of component-based architecture and seamless state management.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <h2>CMS & Databases</h2>
+                    <p>Diving into Supabase and Directus for CMS and database management cultivates expertise in building scalable, customizable content structures, while honing your skills in database design and administration for dynamic and data-driven web projects.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ----------- portfolio ----------- -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="project-list">
+                
+                <div class="work">
+                    <div class="layer">
+                        <h3>Solar System Animation With CSS</h3>
+                        <a href="#">View</a>
+                    </div>
+                    <img src="images/work-1.png">
+                </div>
+
+                <div class="work">
+                    <div class="layer">
+                        <h3>Solar System Animation With CSS</h3>
+                        <a href="#">View</a>
+                    </div>
+                    <img src="images/work-2.png">
+                </div>
+
+                <div class="work">
+                    <div class="layer">
+                        <h3>Solar System Animation With CSS</h3>
+                        <a href="#">View</a>
+                    </div>
+                    <img src="images/work-3.png">
+                </div>
+            </div>
+        </div>
+    </div>
     
+
+
+
+
+
+
+
+
+
+
+
+
+
 <script>
     var tabLinks = document.getElementsByClassName("tab-links");
     var tabContents = document.getElementsByClassName("tab-contents");
@@ -92,7 +168,8 @@ function openTab(tabname) {
     }
     event.currentTarget.classList.add("active-link");
     document.getElementById(tabname).classList.add("active-tab");
-}
+    
+    }
 </script>
 
 
