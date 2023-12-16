@@ -16,10 +16,12 @@ body {
 
 #header {
     width: 100%;
-    height: 100vh;
-    background-image: url(images/headerBG.jpg);
+    height: 100dvh;
+    background-image: url(images/bg3.jpg);
     background-size: cover;
     background-position: center;
+    
+    
 }
 
 .container {
@@ -68,6 +70,7 @@ nav ul li a:hover::after {
     width: 100%;
 }
 
+
 .header-text {
    padding-left: 13px;
    font-size: 1.25rem;
@@ -78,6 +81,10 @@ nav ul li a:hover::after {
     font-size: 60px;
     margin-top: 100px;
     
+}
+
+.header-text h2 {
+    padding-left: 5px;
 }
 
 .header-text h1 span {
