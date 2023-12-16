@@ -1,4 +1,4 @@
-# my-portfolio
+# My Portfolio
 
 ## Attributions
 
@@ -7,3 +7,5 @@
 
 - Sample Portfolio Tutorial YT: Channel Name: GreatStack
 - [Tutorial](https://www.youtube.com/watch?v=0YFrGy_mzjY&ab_channel=GreatStack)
+
+- [Hero Background Image](https://www.pexels.com/photo/lights-night-dark-long-exposure-1679719/)
