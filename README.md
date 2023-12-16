@@ -11,4 +11,4 @@
 ## Image Attributions
 
 - [Hero Background Image](https://www.pexels.com/photo/lights-night-dark-long-exposure-1679719/)
-- [Project 1](https://www.pexels.com/photo/gray-and-black-galaxy-wallpaper-2150/)
+- [Project 1](https://www.pexels.com/photo/full-moon-in-dark-night-sky-3765594/)
