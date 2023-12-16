@@ -122,6 +122,7 @@ nav ul li a:hover::after {
 .tab-titles {
     display: flex;
     margin: 20px 0 40px;
+    
 }
 
 .tab-links {
@@ -151,12 +152,15 @@ nav ul li a:hover::after {
 .tab-contents ul li {
     list-style: none;
     margin: 10px 0;
+    padding-top: 5px;
+    padding-bottom: 10px;
 
 }
 
 .tab-contents ul li span {
     color: rebeccapurple;
     font-size: 14px;
+   
 }
 
 .tab-contents {
@@ -165,6 +169,7 @@ nav ul li a:hover::after {
 
 .tab-contents.active-tab {
     display: block;
+   
 }
 
 /* -------- Skills Styling ---------- */
