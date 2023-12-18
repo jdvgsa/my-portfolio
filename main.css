@@ -87,6 +87,10 @@ nav ul li a:hover::after {
     padding-left: 5px;
 }
 
+.header-text h5 {
+    padding-left: 5px;
+}
+
 .header-text h1 span {
     background: linear-gradient(to right, #e82208, #540ce6);
     color: transparent;
